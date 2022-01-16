@@ -1,0 +1,111 @@
+.contact{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+.details{
+    background-color: black;
+    width: 700px;
+    height: 500px;
+    float: left;
+    margin-left: 410px;
+    margin-top: 80px;
+    position: fixed;
+    border: 1px solid skyblue;
+    box-shadow: inset 2px 2px 100px rgb(11, 152, 207);
+}
+.Image{
+    background-image: url('../pics/myne.jpeg');
+    width: 190px;
+    height: 190px;
+    margin-left: 600px;
+    background-size: 100% 100%;
+    border-radius: 200px;
+    margin-top: -50px;
+    animation-name: animi;
+    animation-duration: 1s;
+}
+@keyframes animi{
+    10%{
+        margin-left: -1000px;
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.contact .contactContent{
+    margin-top: -60px;
+}
+.contact i{
+    font-size: 18px;
+    color: rgb(59, 184, 233);
+}
+.contact .contactInfo{
+    font-size: 18px;
+    color: rgb(59, 184, 233);
+}
+.contact .contactDiv1{
+    width: 80%;
+    background-color: rgb(27, 143, 189);
+    height: 250px;
+    border-radius: 200px;
+    border-left: 6px solid white;
+}
+.contact .contactDiv2{
+    width: 80%;
+    background-color: rgb(27, 143, 189);
+    height: 250px;
+    border-radius: 200px;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-right: 6px solid white;
+}
+.contact .contactDiv3{
+    width: 80%;
+    background-color: rgb(27, 143, 189);
+    height: 4px;
+    margin-left: 250px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.contact .contactDiv4{
+    width: 80%;
+    background-color: rgb(27, 143, 189);
+    height: 2px;
+    margin-left: 250px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+@media screen and (max-width: 990px){
+    .details{
+        background-color: black;
+        width: 500px;
+        height: 550px;
+        margin-left: -50px;
+        margin-top: 30px;
+        position: fixed;
+    }
+    .Image{
+        background-image: url('../pics/myne.jpeg');
+        width: 190px;
+        height: 190px;
+        margin-left: 200px;
+        margin-top: -60px;
+    }
+    .contact .contactContent{
+        margin-top: 30px;
+    }
+    .contact .contactDiv1{
+        display: none;
+    }
+    .contact .contactDiv2{
+        display: none;
+    }
+    .contact .contactDiv3{
+        display: none;
+    }
+    .contact .contactDiv4{
+        display: none;
+    }
+}

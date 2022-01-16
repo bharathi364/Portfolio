@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(8, 8, 8);
+}
+.navBar{
+    background-color: rgb(8, 8, 8);
+}
+h2{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+li{
+    display: block;
+    margin-right: 70px;
+    font-size: 18px;
+    text-align: center;
+}
+.navBar a{
+    text-decoration: none;
+}
+li a:hover{
+    border-top: 2px solid white;
+    border-bottom: 2px solid skyblue;
+    color: white;
+    box-shadow: 2px 2px 15px white,rgb(26, 171, 228);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+*{
+    scrollbar-width: thin;
+    scrollbar-color: skyblue white;
+  }
+.content{
+    text-align: center;
+    height: 645px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: -690px;
+    color: white;
+    text-shadow: 2px 1px 1px skyblue;
+    border-top: 1px solid skyblue;
+    margin-top: 10px;
+    border-right: 1px solid skyblue;
+    border-radius: 1500px;
+    background-image: url('pics.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    box-shadow: 1px 20px 100px rgb(10, 154, 211);
+}
+.content .im{
+    font-family:'Courier New', Courier, monospace;
+    margin-left: -390px;
+    color: skyblue;
+    font-size: 105px;
+    text-shadow: 2px 2px 1px rgb(4, 82, 92);
+    margin-top: 100px;
+}
+.content .name{
+    margin-left: -90px;
+    animation: text 1s 1;
+}
+.content .goal{
+    font-size: 25px;
+    font-weight: 100;
+    text-shadow: none;
+    margin-left: -70px;
+    animation: text 1s 1;
+}
+.content .goalName{
+    color: skyblue;
+    font-weight: 500;
+}
+.content .bright{
+    font-size: 25px;
+    font-weight: 100;
+    text-shadow: none;
+    margin-left: -70px;
+    animation: text 1s 1;
+}
+.content .brightSpan{
+    font-size: 27px;
+    font-weight: 500;
+    color: skyblue;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 10px white;
+}
+@keyframes text{
+    0%{
+        color: black;
+        margin-bottom: 10px;
+    }
+    30%{
+        letter-spacing: 10px;
+        margin-bottom: 10px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: 0px;
+    }
+}
+.btn{
+    width: 250px;
+    background-color: rgb(9, 145, 199);
+    color: white;
+    text-shadow: none;
+    margin-left: -70px;
+    font-size: 21px;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: black;
+    color: rgb(242, 245, 247);
+    box-shadow: 2px 2px 50px rgb(28, 152, 201);
+}
+@media screen and (max-width: 600px) {
+    .content{
+        font-size: 35px;
+        margin-left: -50px;
+        height: 707px;
+        border: none;
+        border-radius: 0px;
+    }
+    .content .im{
+        margin-left: -290px;
+        margin-top: -50px;
+    }
+    .content .goal{
+        margin-left: 0px;
+        font-size: 23px;
+    }
+    .btn{
+        width: 200px;
+        background-color: rgb(28, 152, 201);
+        color: white;
+        text-shadow: none;
+        margin-left: -190px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .content{
+        font-size: 30px;
+        margin-left: -10px;
+        height: 577px;
+        margin-top: 90px;
+        border: none;
+        border-radius: 0px;
+    }
+    .content .im{
+        margin-left: -140px;
+        margin-top: -50px;
+        font-size: 150px;
+    }
+    .btn{
+        width: 200px;
+        background-color: rgb(28, 152, 201);
+        color: white;
+        text-shadow: none;
+        margin-left: -150px;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+}

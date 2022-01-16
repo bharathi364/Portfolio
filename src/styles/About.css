@@ -1,0 +1,68 @@
+
+.aboutContent{
+    color: white;
+}
+.quote{
+    color: skyblue;
+}
+.blockquote {
+    position: relative; 
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1px solid white;
+    background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.blockquote::before {    
+      content: "";
+      background-image: url('../pics/myne.jpeg');
+      background-size: cover;
+      background-size: 60% 100%;
+      position: fixed;
+      background-repeat: no-repeat;
+      top: 80px;
+      right: -460px;
+      bottom: 70px;
+      left: 800px;
+      opacity: 0.4;
+      box-shadow: inset 0px 0px 700px 100px rgb(0, 9, 12);
+}
+.blockquote p{
+  position: relative;
+  color: #ffffff;  
+  font-size: 30px;
+  line-height: 0.9;
+  text-align: center;
+  width: 400px;
+  box-shadow: 2px 2px 100px skyblue;
+  padding: 90px;
+  margin-left: -340px;
+  animation-name: animi;
+  animation-duration: 1s;
+}
+@keyframes animi{
+    10%{
+        margin-left: -1000px;
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@media screen and (max-width: 990px) {
+    .blockquote{
+        background-image: url('../pics/myne.jpeg');
+        opacity: 0.5;
+        background-size: 100% 100%;
+        font-weight: 600;
+        box-shadow: inset 2px 2px 100px skyblue;
+    }
+    .blockquote p{
+        font-size: 30px;
+        margin-left: -170px;
+        box-shadow: none;
+    }
+}

@@ -1,0 +1,63 @@
+body{
+    color: aliceblue;
+}
+.skills{
+    margin-top: 40px;
+}
+.skills p{
+    text-align: center;
+    font-size: 25px;
+    color: skyblue;
+    padding-top: 30px;
+}
+.skills li{
+    margin-left: 40px;
+}
+.skills div{
+    border: 1px solid skyblue;
+    border-radius: 150px;
+    width: 33.33%;
+    height: 280px;
+    box-shadow: 1px 1px 20px skyblue;
+    transition: width 1s;
+}
+.skills div:hover{
+    width: 600px;
+}
+#div1{
+    float: right;
+}
+#div2{
+    float: left;
+}
+#div3{ 
+    margin: 0 auto;
+}
+#div4{
+    float: right;   
+}
+#div5{  
+    float: left;  
+}
+#div6{
+    margin: 0 auto; 
+}
+@media screen and (max-width: 990px) {
+    .skills div{
+        float: none;
+        width: 100%;
+        overflow:hidden;
+        height: 250px;
+        margin-bottom: 10px;
+    }
+    .skills div:hover{
+        width: 100%;
+        transition: none;
+    }
+    .skills p{
+        font-size: 20px;
+    }
+    .skills li{
+        font-size: 18px;
+    }
+}
