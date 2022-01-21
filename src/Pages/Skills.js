@@ -32,7 +32,6 @@ function Skills() {
                     <li>CSS</li>
                     <li>HTML</li>
                     <li>React Js</li>
-                    <li>JSON</li>
                     <li>JQuery</li>
                 </ul>
             </div>

@@ -4,21 +4,18 @@ function Education() {
     return (
         <div className='education'>
             <div className='school edu'>
-            <i className='fas fa-graduation-cap'></i>
                 <h3> School </h3>
                 <p>T.R.M.M.Girls high school (SSC</p>
                 <p>Jun 2014–April 2015</p>
                 <p>CGPA- (9.7/10.0)</p>
             </div>
             <div className='puc edu'>
-                <i className='fas fa-graduation-cap'> </i>
                 <h3> Pre university course</h3>
                 <p>Rajiv Gandhi University of Knowledge Technologies, Nuzvid (PUC)</p>
                 <p>Aug 2015–May 2017</p>
                 <p>CGPA — (8.4/10.0)</p>
             </div>
             <div className='btech edu'>
-                <i className='fas fa-graduation-cap'> </i>
                 <h3> Bachelor of Technology </h3>
                 <p>Rajiv Gandhi University of Knowledge Technologies, Nuzvid </p>
                 <p>Sep 2017–Aug 2021</p>

@@ -18,10 +18,6 @@ const contact = () => {
                     <p></p>
                 </div>
             </div>
-            <div className='contactDiv1'></div>
-            <div className='contactDiv2'></div>
-            <div className='contactDiv3'></div>
-            <div className='contactDiv4'></div>
         </div>
     )
 }

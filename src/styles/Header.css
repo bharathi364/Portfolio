@@ -33,7 +33,7 @@ li a:hover{
   }
 .content{
     text-align: center;
-    height: 645px;
+    height: 600px;
     font-size: 50px;
     font-weight: 700;
     margin-left: -690px;
@@ -114,53 +114,127 @@ li a:hover{
     color: rgb(242, 245, 247);
     box-shadow: 2px 2px 50px rgb(28, 152, 201);
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px){
+    li{
+        display: block;
+        margin-right: 0px;
+        font-size: 17px;
+        text-align: center;
+    }
     .content{
-        font-size: 35px;
-        margin-left: -50px;
-        height: 707px;
-        border: none;
-        border-radius: 0px;
+        text-align: center;
+        height: 590px;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 20px;
+        color: white;
+        text-shadow: 2px 1px 1px skyblue;
+        border-top: 1px solid skyblue;
+        border-right: 1px solid skyblue;
+        border-radius: 1500px;
+        background-image: url('pics.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center; 
+        background-size: 100% 100%;
+        box-shadow: 1px 2px 20px rgb(10, 154, 211);
     }
     .content .im{
-        margin-left: -290px;
-        margin-top: -50px;
+        font-family:'Courier New', Courier, monospace;
+        margin-left: 150px;
+        color: skyblue;
+        font-size: 80px;
+        text-shadow: 2px 2px 1px rgb(4, 82, 92);
+        margin-top: 50px;
+    }
+    .content .name{
+        margin-left: 350px;
+        font-size: 35px;
+        margin-top: -25px;
     }
     .content .goal{
-        margin-left: 0px;
-        font-size: 23px;
+        font-size: 22px;
+        font-weight: 100;
+        text-shadow: none;
+        margin-left: 360px;
+        animation: text 1s 1;
+    }
+    .content .goalName{
+        color: skyblue;
+        font-weight: 500;
+    }
+    .content .bright{
+        font-size: 24px;
+        font-weight: 100;
+        text-shadow: none;
+        margin-left: 230px;
+        animation: text 1s 1;
+    }
+    .content .brightSpan{
+        font-size: 25px;
+        font-weight: 500;
+        color: skyblue;
+        letter-spacing: 5px;
+        text-shadow: 1px 1px 10px white;
     }
     .btn{
+        margin-left: 370px;
         width: 200px;
-        background-color: rgb(28, 152, 201);
-        color: white;
         text-shadow: none;
-        margin-left: -190px;
         font-size: 20px;
         margin-top: 20px;
     }
 }
-@media screen and (max-width: 990px) {
-    .content{
-        font-size: 30px;
-        margin-left: -10px;
-        height: 577px;
-        margin-top: 90px;
-        border: none;
-        border-radius: 0px;
+@media screen and (max-width: 480px){
+    li{
+        display: block;
+        margin-right: 0px;
+        font-size: 15px;
+        text-align: center;
     }
     .content .im{
-        margin-left: -140px;
-        margin-top: -50px;
-        font-size: 150px;
+        font-family:'Courier New', Courier, monospace;
+        margin-left: 500px;
+        color: skyblue;
+        font-size: 70px;
+        text-shadow: 2px 2px 1px rgb(4, 82, 92);
+        margin-top: 50px;
+    }
+    .content .name{
+        margin-left: 635px;
+        font-size: 25px;
+        margin-top: -25px;
+    }
+    .content .goal{
+        font-size: 20px;
+        font-weight: 100;
+        text-shadow: none;
+        margin-left: 690px;
+        animation: text 1s 1;
+    }
+    .content .goalName{
+        color: skyblue;
+        font-weight: 500;
+    }
+    .content .bright{
+        font-size: 22px;
+        font-weight: 100;
+        text-shadow: none;
+        margin-left: 680px;
+        animation: text 1s 1;
+    }
+    .content .brightSpan{
+        font-size: 25px;
+        font-weight: 500;
+        color: skyblue;
+        letter-spacing: 5px;
+        text-shadow: 1px 1px 10px white;
     }
     .btn{
+        margin-left: 660px;
         width: 200px;
-        background-color: rgb(28, 152, 201);
-        color: white;
         text-shadow: none;
-        margin-left: -150px;
         font-size: 20px;
-        margin-top: 40px;
+        margin-top: 20px;
     }
 }
